@@ -93,11 +93,16 @@ ul select{
 @media only screen and (max-width: 768px){
 
   .selection{
-    margin: auto; padding: 0px;
+    margin:0; padding: 20px;
+    width: auto;
 
   }
+  .selection .inputbox{
+    padding: 0px;
+}
   .selection .inputbox input{
     padding: 0;
+    width: 100%;
 }
 head{
   margin: 0; padding: 0; border:0;

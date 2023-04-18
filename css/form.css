@@ -1,3 +1,4 @@
+
 .selection .inputbox{
     padding: 20px;
 }
@@ -31,4 +32,13 @@
 .selection .inputbox .enter{
     font-size: 30px;
     padding: 10px;
+}
+@media only screen and (max-width: 768px){
+.selection{
+    min-width:400px;
+    margin: auto;
+  }
+  .selection h1{
+    text-align: center;
+  }
 }

@@ -1,0 +1,124 @@
+*{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 0;   padding: 0;
+  box-sizing: border-box;
+  outline: none;  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+*::selection{
+  background-color: rgb(144, 166, 223);
+  color: aliceblue;
+
+}
+
+html{
+  font-size: 65.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+/* navbar */
+
+.navbar-nav{
+	margin-right: 0;
+	padding-right: 100px;
+}
+
+.navbar{
+	box-shadow: 0.5rem 1rem rgba(0,.1,0,.1);
+  font-size: 15px;
+  justify-content: space-between;
+  border: solid 1px rgb(238, 231, 231);
+  border-radius: 30px;
+}
+
+.nav-item a{
+	color: #666;
+}
+
+.nav-item{
+	padding-left: 20px;
+  padding-right: 40px;
+}
+
+.navbar-brand{
+	color: blue;
+  font-size: 15px;
+	padding-left: 100px;
+}
+
+#navbar button{
+	color: white;
+}
+ul select{
+  padding-left: 50px;
+  font-size: 25px;
+  color: #666;
+  padding: 5px;
+  background-color:white;
+  appearance: none;
+}
+
+.mainsection{
+  padding: 20px;
+ 
+}
+.selection{
+   border: solid 4px white;
+    border-radius: .5rem;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 .5rem 1rem rgb(192, 187, 187);
+    margin: 20px auto;
+
+}
+/* media */
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+  .nav-item a{
+    border-left: solid 3px blue;
+  }
+  .nav-item select{
+    border-left: solid 3px blue;
+
+  }
+}
+
+@media only screen and (max-width: 768px){
+
+  .selection{
+    margin: auto; padding: 0px;
+
+  }
+  .selection .inputbox input{
+    padding: 0;
+}
+head{
+  margin: 0; padding: 0; border:0;
+}
+#content{
+  margin: 0; padding: 0%;
+  text-align: left;
+}
+img{
+  margin: auto;
+  height: 50%;width: 50%;
+}
+.head .pics{
+  padding-left: 0px;
+  margin: auto;
+}
+.end{
+  padding: 20px;
+  width: 40%;
+   gap:20px;
+
+}
+ }
+

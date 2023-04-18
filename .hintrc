@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "scroll-behavior"
+        ]
+      }
+    ],
+    "no-inline-styles": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off",
+        "select-name": "off"
+      }
+    ],
+    "axe/name-role-value": [
+      "default",
+      {
+        "input-button-name": "off",
+        "link-name": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "document-title": "off",
+        "image-alt": "off"
+      }
+    ]
+  }
+}

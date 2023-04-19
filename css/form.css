@@ -33,6 +33,29 @@
     font-size: 30px;
     padding: 10px;
 }
+.selection .inputbox1 input{
+    border: 1px solid #333;
+    border-radius: 7px; font-size: 40px;
+    width: 50%; padding: 5px; padding-bottom: 0;
+}
+.selection textarea{
+    border: #333 1px solid;
+    padding: 30px; font-size: 15px;
+    margin: 10px auto;
+}
+.selection .inputbox2{
+    text-align: center;
+}
+.selection .btn2{
+    border: 2px solid rgb(152, 152, 233); border-radius: 20px; font-size:20px; text-align: center;
+    padding: 10px; padding-left: 15px; padding-right: 15px; margin-bottom: 20px;
+    background-color: white; 
+}
+.selection .imagebtn{
+    width:30%; margin-left:65%;
+    border: 1px black solid; border-radius: 20px; background-color: rgb(211, 211, 236);
+    font-size: 20px; text-align: center; padding-top: 10px;
+}
 @media only screen and (max-width: 768px){
 .selection{
     min-width:400px;
@@ -40,5 +63,9 @@
   }
   .selection h1{
     text-align: center;
+  }
+  .selection .inputbox2{
+    text-align: left;
+    padding-left: 50px;
   }
 }

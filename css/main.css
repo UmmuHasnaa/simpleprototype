@@ -104,26 +104,6 @@ ul select{
     padding: 0;
     width: 100%;
 }
-head{
-  margin: 0; padding: 0; border:0;
-}
-#content{
-  margin: 0; padding: 0%;
-  text-align: left;
-}
-img{
-  margin: auto;
-  height: 50%;width: 50%;
-}
-.head .pics{
-  padding-left: 0px;
-  margin: auto;
-}
-.end{
-  padding: 20px;
-  width: 40%;
-   gap:20px;
 
-}
  }
 
